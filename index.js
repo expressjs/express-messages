@@ -18,7 +18,7 @@ module.exports = function(req, res){
         , msgs = messages[type];
       if (msgs) {
         buf.push('  <ul class="' + type + '">');
-        for (var j = 0, len = msgs.length; j < len; ++j) {
+        for (var j = 0, len2 = msgs.length; j < len2; ++j) {
           var msg = msgs[j];
           buf.push('    <li>' + msg + '</li>');
         }
