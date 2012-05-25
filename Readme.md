@@ -40,7 +40,7 @@ Which outputs HTML as shown below:
 
 First make sure you have the submodules:
 
-    $ git submodule update --init
+    $ npm install
 
 Then run the tests:
 
