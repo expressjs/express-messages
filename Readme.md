@@ -80,7 +80,7 @@ For example, lets use the below custom message template named `my_message_templa
     <% }) %>
     </div>
 
-[Pug (was Jade)](https://pugjs.org/):(`my_message_template.jade`):
+[Pug (was Jade)](https://pugjs.org/):(`my_message_template.pug`):
 
     .messages
       each type in Object.keys(messages)
