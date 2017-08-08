@@ -44,7 +44,7 @@ Call the `messages()` function as specified by your rendering engine:
 
     <%- messages() %>
 
-[Jade](http://jade-lang.com/):
+[Pug (was Jade)](https://pugjs.org/):
 
     != messages()
 
