@@ -44,7 +44,7 @@ Call the `messages()` function as specified by your rendering engine:
 
     <%- messages() %>
 
-[Jade](http://jade-lang.com/):
+[Pug (was Jade)](https://pugjs.org/):
 
     != messages()
 
@@ -80,7 +80,7 @@ For example, lets use the below custom message template named `my_message_templa
     <% }) %>
     </div>
 
-[Jade](http://jade-lang.com/) (`my_message_template.jade`):
+[Pug (was Jade)](https://pugjs.org/):(`my_message_template.pug`):
 
     .messages
       each type in Object.keys(messages)
@@ -96,7 +96,7 @@ Next, pass the template name, `my_message_template`, as a parameter to the `mess
 
     <%- messages('my_message_template', locals) %>
 
-[Jade](http://jade-lang.com/):
+[Pug (was Jade)](https://pugjs.org/):
 
     != messages('my_message_template', locals)
 
